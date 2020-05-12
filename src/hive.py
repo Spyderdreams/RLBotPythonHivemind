@@ -5,6 +5,8 @@ from rlbot.utils.structures.game_data_struct import GameTickPacket
 from rlbot.agents.hivemind.python_hivemind import PythonHivemind
 
 
+# Link to Hivemind wiki: https://github.com/ViliamVadocz/Hivemind/wiki/
+
 class ExampleHivemind(PythonHivemind):
     def initialize_hive(self, packet: GameTickPacket) -> None:
         self.logger.info("Initialised!")
